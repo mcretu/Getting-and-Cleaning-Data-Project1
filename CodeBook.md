@@ -130,4 +130,4 @@ Saved the result into variable subData2.
 	"frequencyBodyGyroscopeJerkMagnitude-mean()" 
 	"frequencyBodyGyroscopeJerkMagnitude-std()"
 
-###Number of rows: 1 header + 180 observations
+###Number of Rows: 1 header + 180 observations
