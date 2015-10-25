@@ -13,18 +13,18 @@ List the files to become familiar with the data.
 
 Read data from the files from 'test' and 'train' folders into the variables:
 
-	* activityTestData, activityTrainData (from 'Y*.txt' files)
-	* subjectTestData, subjectTrainData (from 'subject*.txt' files)
-	* featuresTestData, featuresTrainData (from 'X*.txt' files)
+	activityTestData, activityTrainData (from 'Y*.txt' files)
+	subjectTestData, subjectTrainData (from 'subject*.txt' files)
+	featuresTestData, featuresTrainData (from 'X*.txt' files)
 	
 Used str() to see and verify that data was correctly read.
 
 ##1. Merge the training and the test sets to create one data set:
 Merged the rows from test and training sets using rbind() into the variables:
 
-	* activityData
-	* subjectData
-	* featuresData
+	activityData
+	subjectData
+	featuresData
 	
 Set the names for columns "Activity" and "Subject".
 Read the features names from file 'features.txt' and set the names for the rest of the columns.
@@ -54,7 +54,7 @@ Use agregate() function to calculate the average (mean) and saved the result int
 Next, ordered subData2 and used write.table to save the data to a file called 'tidy_data.txt'.
 
 ###'tidy_data.txt' can be opened in notepad and can be observed that it meats the tidy data principle:
-each variable is in one column, each different observation of that variable is in a different row.
+###each variable is in one column, each different observation of that variable is in a different row.
 
 
 
