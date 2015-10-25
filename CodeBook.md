@@ -54,7 +54,7 @@ Saved the result into variable subData2.
 
 ##Output file tidy_data.txt:
 
-###Columns: 68 in total
+###Number of Columns: 68
 
 ####Identifiers Names
 
