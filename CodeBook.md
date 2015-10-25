@@ -1,17 +1,54 @@
 # Code Book
-##Initial data
-Data collected from the accelerometers from the Samsung Galaxy S smartphone. A full description is available at the site where the data was obtained: 
+
+##Initial data:
+
+Data collected from the accelerometers from the Samsung Galaxy S smartphone. 
+A full description is available at the site where the data was obtained: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
+
 Data for the project: 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
+##Actions:
 
+1.Download and unzip the file.
 
+2.Read data from the files from 'test' and 'train' folders into the variables:
 
+	activityTestData, activityTrainData (from 'Y*.txt' files)
+	subjectTestData, subjectTrainData (from 'subject*.txt' files)
+	featuresTestData, featuresTrainData (from 'X*.txt' files)
 
+3.Merged the rows from test and training sets into the variables:
 
+	activityData
+	subjectData
+	featuresData
+	
+4.Set the names for columns "Activity" and "Subject".
+Read the features names from file 'features.txt' and set the names for the rest of the columns.
 
-##Actions
+5.Merged first the columns from subjectData and activityData,
+next merged the columns from features data with the above result.
+
+6.Take only names of the features containing 'mean' or 'std'
+and subset the data on the above selected names into variable subData1.
+
+7.Read descriptive activity names from file 'activity_labels.txt' into activityNames variable
+and assigned to Activity: "WALKING" for 1, "WALKING_UPSTAIRS" for 2, etc.
+
+8. Appropriately label the features with descriptive variable names by replacing 
+"t" with "time", 
+"f" with "frequency", 
+"Acc" with "Accelerometer", 
+"Gyro" with "Gyroscope", 
+"Mag" with "Magnitude", 
+"BodyBody" with "Body".
+
+9. Calculate the average (mean) and saved the result into variable subData2.
+
+10. Ordered subData2 and used write.table to save the data to a file called 'tidy_data.txt'.
+
 ##Output file tidy_data.txt:
 
 ###Identifiers
