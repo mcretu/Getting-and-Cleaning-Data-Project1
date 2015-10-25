@@ -55,7 +55,7 @@ and assigned to Activity: "WALKING" for 1, "WALKING_UPSTAIRS" for 2, etc.
 ###Identifiers
 
 	Subject - the ID of the subject
-	Activity - the type of activity performed: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+	Activity - the type of activity performed: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
 
 ###Measurements
 
