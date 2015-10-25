@@ -54,12 +54,14 @@ Saved the result into variable subData2.
 
 ##Output file tidy_data.txt:
 
-###Identifiers
+###Columns: 68 in total
+
+####Identifiers Names
 
 	Subject - the ID of the subject
 	Activity - the type of activity performed: "WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS", "SITTING", "STANDING", "LAYING"
 
-###Measurements
+####Measurements Names
 
 	"timeBodyAccelerometer-mean()-X"
 	"timeBodyAccelerometer-mean()-Y" 
@@ -127,3 +129,5 @@ Saved the result into variable subData2.
 	"frequencyBodyGyroscopeMagnitude-std()" 
 	"frequencyBodyGyroscopeJerkMagnitude-mean()" 
 	"frequencyBodyGyroscopeJerkMagnitude-std()"
+
+$$$Number of rows: 1 header + 180 observations
