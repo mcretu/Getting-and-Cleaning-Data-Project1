@@ -45,7 +45,7 @@ and assigned to Activity: "WALKING" for 1, "WALKING_UPSTAIRS" for 2, etc.
 "Mag" with "Magnitude", 
 "BodyBody" with "Body".
 
-9. From the data set above, create a second, independent tidy data set 
+9.From the data set above, created a second, independent tidy data set 
 with the average (mean) of each variable for each activity and each subject. 
 Saved the result into variable subData2.
 
